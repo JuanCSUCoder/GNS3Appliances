@@ -4,4 +4,5 @@ services:
     build: ./router
   alpine-switch:
     build: ./switch
-
+  alpine-server:
+    build: ./server-alpine

@@ -1,20 +1,20 @@
 {
-    "appliance_id": "fc520ae2-a4e5-48c3-9a13-516bb2e94668",
-    "name": "Alpine Linux",
-    "category": "guest",
-    "description": "Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.",
+    "appliance_id": "c0ca3d3c-29e0-4323-81a7-ea3826a4ffdd",
+    "name": "Alpine Router",
+    "category": "router",
+    "description": "A router based on Alpine Linux Distribution",
     "vendor_name": "Alpine Linux Development Team",
     "vendor_url": "http://alpinelinux.org",
     "documentation_url": "http://wiki.alpinelinux.org",
-    "product_name": "Alpine Linux",
+    "product_name": "Alpine Linux Router",
     "registry_version": 4,
     "status": "stable",
-    "maintainer": "GNS3 Team",
-    "maintainer_email": "developers@gns3.net",
-    "symbol": "linux_guest.svg",
+    "maintainer": "Juan Camilo Sánchez Urrego",
+    "maintainer_email": "jcsu2019369@gmail.com",
+    "symbol": ":/symbols/affinity/circle/blue/router2.svg",
     "docker": {
         "adapters": 16,
-        "image": "alpine",
+        "image": "gns3appliances-alpine-router",
         "console_type": "telnet"
     }
 }

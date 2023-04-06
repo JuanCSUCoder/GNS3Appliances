@@ -2,3 +2,6 @@ version: '3.9'
 services:
   alpine-router:
     build: ./router
+  alpine-switch:
+    build: ./switch
+

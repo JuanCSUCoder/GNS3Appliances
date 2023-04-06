@@ -1,0 +1,20 @@
+{
+    "appliance_id": "4d809537-158f-4bbb-b1eb-fe960bb2ef3f",
+    "name": "Alpine Switch",
+    "category": "switch",
+    "description": "A switch based on Alpine Linux Distribution",
+    "vendor_name": "Alpine Linux Development Team",
+    "vendor_url": "http://alpinelinux.org",
+    "documentation_url": "http://wiki.alpinelinux.org",
+    "product_name": "Alpine Linux Switch",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "Juan Camilo Sánchez Urrego",
+    "maintainer_email": "jcsu2019369@gmail.com",
+    "symbol": ":/symbols/affinity/circle/blue/switch_multilayer.svg",
+    "docker": {
+        "adapters": 16,
+        "image": "gns3appliances-alpine-switch",
+        "console_type": "telnet"
+    }
+}

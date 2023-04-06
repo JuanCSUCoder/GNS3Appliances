@@ -14,7 +14,7 @@
     "symbol": ":/symbols/affinity/circle/green/server.svg",
     "docker": {
         "adapters": 3,
-        "image": "gns3appliances-alpine-server",
+        "image": "gns3appliances-alpine-dhcp",
         "console_type": "telnet"
     }
 }

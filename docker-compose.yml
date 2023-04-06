@@ -6,3 +6,6 @@ services:
     build: ./switch
   alpine-server:
     build: ./server-alpine
+  alpine-dhcp:
+    build: ./dhcp
+

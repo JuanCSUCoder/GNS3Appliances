@@ -1,0 +1,20 @@
+{
+    "appliance_id": "f2ad002e-c0bf-4444-a2be-720ba001a59f",
+    "name": "Alpine Server",
+    "category": "guest",
+    "description": "A server host based on Alpine Linux Distribution",
+    "vendor_name": "Alpine Linux Development Team",
+    "vendor_url": "http://alpinelinux.org",
+    "documentation_url": "http://wiki.alpinelinux.org",
+    "product_name": "Alpine Linux Server",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "Juan Camilo Sánchez Urrego",
+    "maintainer_email": "jcsu2019369@gmail.com",
+    "symbol": ":/symbols/affinity/circle/green/server.svg",
+    "docker": {
+        "adapters": 16,
+        "image": "gns3appliances-alpine-router",
+        "console_type": "telnet"
+    }
+}

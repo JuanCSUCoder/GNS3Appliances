@@ -1,20 +1,20 @@
 {
-  "appliance_id": "fd5f28be-7517-44ec-850b-6c9d55b041f1",
-  "name": "Alpine DHCP",
-  "category": "guest",
-  "description": "A DHCP host based on Alpine Linux Distribution",
-  "vendor_name": "Alpine Linux Development Team",
-  "vendor_url": "http://alpinelinux.org",
-  "documentation_url": "http://wiki.alpinelinux.org",
-  "product_name": "Alpine Linux DHCP",
-  "registry_version": 4,
-  "status": "stable",
-  "maintainer": "Juan Camilo Sánchez Urrego",
-  "maintainer_email": "jcsu2019369@gmail.com",
-  "symbol": ":/symbols/affinity/circle/green/server.svg",
-  "docker": {
-    "adapters": 3,
-    "image": "gns3appliances-alpine-server",
-    "console_type": "telnet"
-  }
+    "appliance_id": "fd5f28be-7517-44ec-850b-6c9d55b041f1",
+    "name": "Alpine DHCP",
+    "category": "guest",
+    "description": "A DHCP host based on Alpine Linux Distribution",
+    "vendor_name": "Alpine Linux Development Team",
+    "vendor_url": "http://alpinelinux.org",
+    "documentation_url": "http://wiki.alpinelinux.org",
+    "product_name": "Alpine Linux DHCP",
+    "registry_version": 4,
+    "status": "stable",
+    "maintainer": "Juan Camilo Sánchez Urrego",
+    "maintainer_email": "jcsu2019369@gmail.com",
+    "symbol": ":/symbols/affinity/circle/green/server.svg",
+    "docker": {
+        "adapters": 3,
+        "image": "gns3appliances-alpine-server",
+        "console_type": "telnet"
+    }
 }

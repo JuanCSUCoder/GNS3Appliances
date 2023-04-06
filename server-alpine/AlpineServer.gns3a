@@ -13,7 +13,7 @@
     "maintainer_email": "jcsu2019369@gmail.com",
     "symbol": ":/symbols/affinity/circle/green/server.svg",
     "docker": {
-        "adapters": 16,
+        "adapters": 3,
         "image": "gns3appliances-alpine-server",
         "console_type": "telnet"
     }
